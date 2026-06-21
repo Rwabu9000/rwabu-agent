@@ -1,13 +1,12 @@
 {
-    "name": "rwabu-agent",
-    "version": "1.0.0",
-    "type": "module",
-    "main": "agent.js",
-    "scripts": {
-      "start": "node agent.js",
-      "dev": "node agent.js"
-    },
-    "dependencies": {
-      "express": "^4.19.2"
-    }
+  "name": "rwabu-agent",
+  "version": "1.0.0",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@anthropic-ai/sdk": "^0.20.0"
   }
+}
