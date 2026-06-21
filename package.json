@@ -1,0 +1,13 @@
+{
+    "name": "rwabu-agent",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "agent.js",
+    "scripts": {
+      "start": "node agent.js",
+      "dev": "node agent.js"
+    },
+    "dependencies": {
+      "express": "^4.19.2"
+    }
+  }
